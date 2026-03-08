@@ -266,10 +266,6 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .navbar-logo span {
-        display: none;
-    }
-
     .navbar-logo img {
         height: 35px;
         width: 35px;
@@ -287,8 +283,7 @@ body {
     }
 
     .dropdown-toggle::after {
-        font-size: 0.8rem;
-        margin-left: 0.2rem;
+        display: none;
     }
 
     .dropdown-menu {
